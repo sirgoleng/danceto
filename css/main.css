@@ -1,7 +1,7 @@
 body{
     /*font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;*/
     font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: #222;
+    color: #333;
 }
 
 .navbar-default{
@@ -10,6 +10,53 @@ body{
     z-index: 1;
 }
 
+.navbar-inverse{
+    background:rgba(0,0,0,0.8);
+    border-radius: 0;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-brand{
+    color:#fff;
+}
+.navbar-inverse .navbar-brand:hover{
+    opacity: 0.65;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#fff;
+    font-weight: 200;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    opacity: 0.65;
+}
+.header-title{
+    height: 51px;
+}
+.header-title h1{
+    font-size:1.3em;
+    margin: 0;
+    line-height: 52px;
+}
+.content{
+    background: #f6f6f6;
+    padding-top:30px
+}
+.content .container{
+    background:#fff;
+    padding: 34px 36px 0;
+    margin-bottom: 30px;
+}
+.content h1{
+    font-size: 24px;
+}
+.content p{
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.content .about-img{
+    margin-top:30px;
+}
 .navbar-default .navbar-brand {
     font-size: 20px;
     font-weight: bold;
@@ -25,10 +72,8 @@ body{
 }
 
 .navbar-default .navbar-collapse{
-    border: none;
-    
+    border: none;  
     text-align: center;
-
 }
 
 .navbar-collapse.in{
