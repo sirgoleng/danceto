@@ -1,2 +1,3 @@
-1.index and about
-2.使用MacBook开始做做
+1.瀑布流插件
+https://masonry.desandro.com/
+http://www.jq22.com/jquery-info362
