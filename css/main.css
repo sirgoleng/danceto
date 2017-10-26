@@ -155,6 +155,9 @@ body{
 }
 }
 
+.grid-item{
+    width:30%;
+}
 .info-1{
     padding-top: 140px;
 }
@@ -238,17 +241,4 @@ body{
     padding-top: 5px;
 }
 
-
-
-.container-fluid {
-    padding: 20px;
-    }
-  .box {
-    margin-bottom: 20px;
-    float: left;
-    width: 220px;
-    }
-    .box img {
-    max-width: 100%
-  }
 
