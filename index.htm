@@ -228,39 +228,19 @@
             </div>
         </div>
     </section>
-
-    <div id="masonry" class="container-fluid">
-        <div class="box">
-            <img src="./img/info-1.jpg">
+    <div class="container" data-masonry='{ "itemSelector": ".grid-item","percentPosition": "true"}'>
+        <div class="grid-item">
+            <img src="./img/info-1.jpg" class="img-responsive" alt="">
         </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
+        <div class="grid-item">
+            <img src="./img/info-1.jpg" class="img-responsive" alt="">
         </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
+        <div class="grid-item">
+            <img src="./img/info-1.jpg" class="img-responsive" alt="">
         </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
+        <div class="grid-item">
+            <img src="./img/info-1.jpg" class="img-responsive" alt="">
         </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-        <div class="box">
-            <img src="./img/info-1.jpg">
-        </div>
-
     </div>
     <!-- footer -->
     <section class="footer">
@@ -278,18 +258,18 @@
     </section>
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script>
+    <script src="js/masonry.min.js"></script>
     <script>
-    $(function() {
-    var $container = $('#masonry');
-    $container.imagesLoaded(function() {
-        $container.masonry({
-                itemSelector: '.box',
-                gutter: 20,
-                isAnimated: true,
+        $(function () {
+            var $container = $('#masonry');
+            $container.imagesLoaded(function () {
+                $container.masonry({
+                    itemSelector: '.box',
+                    gutter: 20,
+                    isAnimated: true,
+                });
             });
-     });
-});
+        });
     </script>
 </body>
 
