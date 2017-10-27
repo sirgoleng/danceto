@@ -2,7 +2,7 @@
     height: 500px;
     width:1000px;
     background: rgb(209, 20, 20);
-    position: relative;
+    position: fixed;
 }
 .second{
     height: 500px;

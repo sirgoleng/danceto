@@ -133,24 +133,39 @@ body{
     background-size: cover;
     margin-top: -90px;
     text-align: center;
-    
+    z-index: -99;
+    position: fixed;
+    /*
+     -webkit-filter: blur(50px); 
+       -moz-filter: blur(50px);
+        -ms-filter: blur(50px);    
+            filter: blur(50px);
+    */
 }
-
-.jumbotron h1{
+.banner{
+    height:100vh;
+    padding-top: 300px;
+}
+.banner h1{
     font-size: 80px;
     line-height: 1;
 }
 
-.jumbotron p{
+.banner p{
     font-weight: 500;
 }
-.jumbotron .container{
-    margin-top: 300px;
+.banner .container{
     color: #fff;
+    text-align: center;
 
 }
+.banner .intro{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -20vh;
+}
 @media only screen and (max-width: 735px){
-.jumbotron h1{
+.banner h1{
     font-size: 35px;
 }
 }
