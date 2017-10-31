@@ -176,8 +176,20 @@ body{
 .grid-item{
     width:30%;
 }
-.content-home{
-    padding-top:210px;
+.content-home h1{
+    padding-bottom: 20px;
+}
+.content-home p{
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 300;
+}
+.content-home .intro-img{
+    margin-top: 114px;
+}
+.intro-home{
+    margin-top:210px;
+    margin-bottom: 140px;
 }
 .info-1{
     background-color: #fafafa;
@@ -192,15 +204,8 @@ body{
 .info-1 img{
     box-shadow: 4px 4px 40px 10px #d4d2d2;
 }
-.info-1 p{
-    line-height: 1.5;
-    font-size: 26px;
-    font-weight: 300;
-}
 
-.info-1 h1{
-    padding-bottom: 20px;
-}
+
 
 .info-3{
     background-color: #fafafa;
