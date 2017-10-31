@@ -44,6 +44,9 @@ body{
     margin: 0;
     line-height: 52px;
 }
+.content-home{
+    background-color: #fff;
+}
 .content{
     background: #f6f6f6;
     padding-top:30px;
@@ -143,8 +146,9 @@ body{
     */
 }
 .banner{
-    height:100vh;
-    padding-top: 300px;
+    padding-top: 30vh;
+    color: #fff;
+    margin-bottom: 300px;
 }
 .banner h1{
     font-size: 80px;
@@ -154,15 +158,14 @@ body{
 .banner p{
     font-weight: 500;
 }
-.banner .container{
-    color: #fff;
+.banner .slagon{
+    height:100vh;
     text-align: center;
-
 }
 .banner .intro{
     font-size: 30px;
     font-weight: 400;
-    margin-top: -20vh;
+    margin-top:-20vh;
 }
 @media only screen and (max-width: 735px){
 .banner h1{
@@ -173,27 +176,10 @@ body{
 .grid-item{
     width:30%;
 }
+.content-home{
+    padding-top:210px;
+}
 .info-1{
-    padding-top: 140px;
-}
-
-.info-1 h1{
-    line-height: 1.2;
-}
-
-.info-1 p{
-    line-height: 1.8;
-    font-size: 24px;
-    color: #333;
-    font-weight: 300;
-}
-
-.info-1 img{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.info-2{
     background-color: #fafafa;
     padding-top: 100px;
     margin-left: auto;
@@ -203,16 +189,16 @@ body{
     margin-bottom: 20px;
 }
 
-.info-2 img{
+.info-1 img{
     box-shadow: 4px 4px 40px 10px #d4d2d2;
 }
-.info-2 p{
+.info-1 p{
     line-height: 1.5;
     font-size: 26px;
     font-weight: 300;
 }
 
-.info-2 h1{
+.info-1 h1{
     padding-bottom: 20px;
 }
 
