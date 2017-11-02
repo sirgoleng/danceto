@@ -3,7 +3,9 @@ body {
     font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #333;
 }
-
+.container{
+    padding:0px 30px 0px 30px;
+}
 .navbar-default {
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -129,14 +131,7 @@ body {
     letter-spacing: .015em;
     margin-top: 30px;
 }
-.event-left{
-    float: left;
-    width:50%;
-}
-.event-right{
-    float: right;
-    width:50%;
-}
+
 .navbar-default .navbar-brand {
     font-size: 20px;
     font-weight: bold;
@@ -197,6 +192,7 @@ body {
 }
 
 .banner p {
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -216,9 +212,21 @@ body {
         font-size: 70px;
     }
 }
-@media only screen and (max-width: 1068px){
+@media only screen and (max-width: 735px){
+    .container{
+        padding: 0px;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
     .banner h1 {
         font-size: 36px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .banner .intro p{
+        font-size: 24px;
     }
 }
 .grid-item {
