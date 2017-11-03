@@ -1,8 +1,0 @@
-jquery.singlepagenav.min.js
-wow.min.js
-animate.css
-
-data-wow-duration="2s" 持续时间
-data-wow-delay="2s" 延迟时间
-data-wow-offset="10" 距离可视区域多远开始执行
-data-wow-iteration="10" 重复次数
