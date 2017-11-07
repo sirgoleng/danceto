@@ -34,3 +34,8 @@ data-wow-iteration="10" 重复次数
 1. 主流工具 grunt、gulp、webpack
 2. 安装gulp,sudo npm install gulp --save-dev
 3. sudo npm install gulp-rev gulp-rev-replace gulp-useref gulp-filter gulp-uglify gulp-csso --save-dev
+## 2. gulp 插件介绍
+1. gulp-watch 代码修改后自动打包
+2. gulp-postcss 自动给css属性添加浏览器前缀
+3. gulp-concat 合并css文件
+4. gulp-responsive 自动实现响应式图片
