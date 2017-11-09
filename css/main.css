@@ -65,7 +65,7 @@ body {
     padding-bottom: 60px;
 }
 .event-home{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .event-home .container{
     background: #f6f6f6;
@@ -74,7 +74,6 @@ body {
 .content .container {
     background: #fff;
     padding: 34px 36px 0;
-    margin-bottom: 30px;
 }
 
 .content h1 {
@@ -88,15 +87,14 @@ body {
 }
 
 .content .img-about {
-    margin-right: -36px;
-    margin-left: -36px;
+    margin: 34px -36px 0;
 }
 
-.content .event {
-    margin-bottom: 10px;
+.team .container{
+    background-color: #f6f6f6;
 }
 
-.event:hover {
+.event-home .container:hover {
     box-shadow: 15px 15px 70px -24.5px rgba(0, 0, 0, 0.3);
 }
 
@@ -111,6 +109,7 @@ body {
 .info .title {
     background-color: #f6f6f6;
     border-bottom: solid 1px #d2d2d2;
+    margin-bottom: 20px;
 }
 
 .title h1 {
@@ -241,6 +240,9 @@ body {
         padding: 0px;
     }
     .img-course{
+        margin:0px;
+    }
+    .img-team{
         margin:0px;
     }
     .event-content{
