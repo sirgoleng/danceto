@@ -61,11 +61,18 @@ body {
 
 .content {
     background: #f6f6f6;
-    padding-top: 30px;
+    padding-top: 120px;
     padding-bottom: 60px;
 }
 .event-home{
     margin-bottom: 10px;
+}
+.content-one{
+    margin-bottom: 20px;
+}
+.content-one .container{
+    background: #f6f6f6;
+    padding: 34px 36px 0;
 }
 .event-home .container{
     background: #f6f6f6;
@@ -147,8 +154,12 @@ body {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+    height: 70px;
+    line-height: 35px;
 }
-
+.navbar-toggle {
+    margin-top: 18px;
+}
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
     opacity: 0.65;
@@ -208,6 +219,9 @@ body {
 }
 
 @media only screen and (max-width: 735px) {
+    .navbar-default .navbar-nav>li>a {
+        height: 40px;
+    }
     h1{
         font-size: 24px;
     }
