@@ -57,6 +57,7 @@ body {
 
 .content-home {
     background-color: #fff;
+    padding-bottom: 50px;
 }
 
 .content {
@@ -185,11 +186,7 @@ body {
     position: fixed;
 }
 .blur{
-     -webkit-filter: grayscale(100%); 
-       -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);    
-            filter: grayscale(100%);
-    transition-duration: 2s;
+
 }
 .banner {
     padding-top: 40vh;
